@@ -75,7 +75,7 @@ public class examen {
 				System.out.println(instituto1);
 				break;
 			case 5:
-				instituto1.ciudadesAlumno();
+				System.out.println(instituto1.ciudadesAlumno());
 				break;
 			case 6:
 				

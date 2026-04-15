@@ -34,6 +34,14 @@ public class Grupo {
 		return null;
 	}
 	
+	public float notaMediaGrupo () {
+		float notaMedia = 0;
+		for(Alumno alumno : alumnos) {
+			notaMedia += alumno.notaMediaAlumno();
+		}
+		return notaMedia;
+	}
+	
 
 	public String getNombre() {
 		return nombre;

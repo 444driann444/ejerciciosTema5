@@ -21,6 +21,12 @@ public class Alumno {
 		}
 		
 	} 
+	
+	public float notaMediaAlumno () {
+		float notaMedia = 0;
+		
+		return notaMedia;
+	}
 
 	public String getNif() {
 		return nif;

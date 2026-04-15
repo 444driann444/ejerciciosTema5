@@ -51,8 +51,14 @@ public class Instituto {
 				nombreCiudades.add(alumno.getCiudad());
 			}
 		}
-		System.out.println(nombreCiudades);
 		return nombreCiudades;
+	}
+	public float notaMediaInstituto () {
+		float notaMedia = 0;
+		for (Grupo grupo1 : grupos) {
+			notaMedia += grupo1.notaMediaGrupo();
+		}
+		return notaMedia;
 	}
 
 	
